@@ -6,3 +6,5 @@ console.log(person[1]);
 var persondetails = ["Jyoti", 22, "Coder", "Student"];
 persondetails.push(20000);
 console.log(persondetails);
+var nestedTuple = ["jyoti", [22, "Rani"]];
+console.log(nestedTuple);

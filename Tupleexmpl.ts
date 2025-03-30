@@ -7,3 +7,6 @@ console.log(person[1]);
 let persondetails:[string, number, ...string[]]=["Jyoti" ,22, "Coder", "Student"];
 persondetails.push(20000);
 console.log(persondetails);
+
+let nestedTuple:[string,[number, string]]=["jyoti",[22,"Rani"]];
+console.log(nestedTuple);
