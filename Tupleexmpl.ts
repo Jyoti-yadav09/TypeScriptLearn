@@ -10,3 +10,6 @@ console.log(persondetails);
 
 let nestedTuple:[string,[number, string]]=["jyoti",[22,"Rani"]];
 console.log(nestedTuple);
+
+let employee:[name:string, age:number]=["Rani",22];
+console.log(employee);
