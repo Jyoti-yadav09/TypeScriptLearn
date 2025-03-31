@@ -13,3 +13,10 @@ console.log(nestedTuple);
 
 let employee:[name:string, age:number]=["Rani",22];
 console.log(employee);
+
+ function getUserdata():[string, number]
+ {
+     return ["Jyoti", 22];
+ }
+  let userData=getUserdata();
+  console.log(userData);

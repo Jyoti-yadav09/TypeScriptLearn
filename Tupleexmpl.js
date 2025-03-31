@@ -10,3 +10,8 @@ var nestedTuple = ["jyoti", [22, "Rani"]];
 console.log(nestedTuple);
 var employee = ["Rani", 22];
 console.log(employee);
+function getUserdata() {
+    return ["Jyoti", 22];
+}
+var userData = getUserdata();
+console.log(userData);
