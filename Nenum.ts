@@ -17,3 +17,16 @@ enum Statu{
  console.log(Statu.Pending);
  console.log(Statu.InProgress);
  console.log(Statu.Completed);
+
+ /*Reverse mapping in Numeric enum */
+
+  enum Colors
+  {
+      Red=1,
+      Pink=2,
+      Orange=3
+  };
+
+   console.log(Colors.Red);
+   console.log(Colors[1]);
+   console.log(Colors[2]);

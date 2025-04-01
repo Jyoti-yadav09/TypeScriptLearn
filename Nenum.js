@@ -19,3 +19,14 @@ var Statu;
 console.log(Statu.Pending);
 console.log(Statu.InProgress);
 console.log(Statu.Completed);
+/*Reverse mapping in Numeric enum */
+var Colors;
+(function (Colors) {
+    Colors[Colors["Red"] = 1] = "Red";
+    Colors[Colors["Pink"] = 2] = "Pink";
+    Colors[Colors["Orange"] = 3] = "Orange";
+})(Colors || (Colors = {}));
+;
+console.log(Colors.Red);
+console.log(Colors[1]);
+console.log(Colors[2]);
