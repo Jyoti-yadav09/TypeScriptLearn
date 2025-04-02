@@ -14,3 +14,4 @@ function add(a:number, b:number):number;
   }
 console.log(add(2,4));
 console.log(add("hello","jyoti"));
+

@@ -29,3 +29,9 @@ function multiply(a:number,b:number)
        
        const subtract:MathOperation=(x,y)=>x-y;
       console.log(subtract(9,7));
+
+      function Welcome(greeting:string, ...name:string[]):string{
+           return `${greeting} ${name}`;
+      }
+
+       console.log(Welcome("Hello", "Jyoti"));

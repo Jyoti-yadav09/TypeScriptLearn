@@ -18,3 +18,11 @@ var addition = function (x, y) { return x + y; };
 console.log(addition(2, 3));
 var subtract = function (x, y) { return x - y; };
 console.log(subtract(9, 7));
+function Welcome(greeting) {
+    var name = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        name[_i - 1] = arguments[_i];
+    }
+    return "".concat(greeting, " ").concat(name);
+}
+console.log(Welcome("Hello", "Jyoti"));
