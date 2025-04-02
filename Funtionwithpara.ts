@@ -35,3 +35,4 @@ function multiply(a:number,b:number)
       }
 
        console.log(Welcome("Hello", "Jyoti"));
+       console.log(Welcome("Hi!","Rinky","tinku","chinku"));

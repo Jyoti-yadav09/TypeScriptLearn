@@ -26,3 +26,4 @@ function Welcome(greeting) {
     return "".concat(greeting, " ").concat(name);
 }
 console.log(Welcome("Hello", "Jyoti"));
+console.log(Welcome("Hi!", "Rinky", "tinku", "chinku"));
