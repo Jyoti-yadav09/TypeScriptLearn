@@ -11,3 +11,4 @@ console.log(strlength);
 let obj:unknown="Hello world";
 let strlength2:number=(<string>obj).length;
 console.log(strlength2);
+
